@@ -1,4 +1,4 @@
-package com.olaotankoumolou.car_rental_backend.exception;
+package com.olaotankoumolou.car_rental_backend.utils;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatusCode;
