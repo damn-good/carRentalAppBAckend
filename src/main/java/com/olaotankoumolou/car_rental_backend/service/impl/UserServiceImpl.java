@@ -4,23 +4,16 @@ import com.olaotankoumolou.car_rental_backend.dto.SignupRequestDto;
 import com.olaotankoumolou.car_rental_backend.dto.UserDto;
 import com.olaotankoumolou.car_rental_backend.entity.Role;
 import com.olaotankoumolou.car_rental_backend.entity.User;
-import com.olaotankoumolou.car_rental_backend.enums.UserRole;
 import com.olaotankoumolou.car_rental_backend.mapper.UserMapper;
-import com.olaotankoumolou.car_rental_backend.repository.RoleRepository;
 import com.olaotankoumolou.car_rental_backend.repository.UserRepository;
 import com.olaotankoumolou.car_rental_backend.service.RoleService;
 import com.olaotankoumolou.car_rental_backend.service.UserService;
-import jakarta.validation.constraints.Null;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
-import java.util.Optional;
-import java.util.Set;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Service
